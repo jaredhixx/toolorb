@@ -53,7 +53,7 @@ const clusterContent: Record<
     eyebrow: "Loan calculators",
     title: "Loan and auto calculators",
     description:
-      "Estimate monthly payments, compare borrowing costs, and understand how loan amount, interest rate, down payment, and term length affect the total price you pay.",
+      "Estimate affordability before borrowing, compare monthly payments, and understand how loan amount, interest rate, down payment, and term length affect the total price you pay.",
     bestFor: [
       "Comparing monthly loan payments",
       "Estimating car affordability before shopping",
@@ -88,7 +88,7 @@ const decisionPaths = [
   {
     title: "Buying a car",
     description:
-      "Start with car affordability to set a realistic budget, then use the auto loan calculator to estimate the payment after price, down payment, taxes, fees, rate, and term.",
+      "Start with car affordability to estimate a safer vehicle budget from income, debt, down payment, rate, and term, then use the auto loan calculator to compare the actual monthly payment.",
     links: [
       {
         label: "Car Affordability Calculator",
@@ -170,7 +170,7 @@ export default function ToolsPage() {
             "@type": "ItemList",
             name: "Free financial calculators",
             description:
-              "A library of free financial calculators for loans, mortgages, cars, savings, and investing decisions.",
+              "A library of free financial calculators for affordability, loan payments, mortgages, cars, savings, and investing decisions.",
             url: `${siteConfig.url}/tools`,
             itemListElement: toolDefinitions.map((tool, index) => ({
               "@type": "ListItem",
@@ -194,9 +194,10 @@ export default function ToolsPage() {
             </h1>
 
             <p className="mt-5 max-w-3xl text-lg leading-8 text-stone-300">
-              Use Toolorb&apos;s free financial calculators to estimate payments,
-              compare scenarios, understand interest costs, and make clearer
-              money decisions before you borrow, buy, save, or invest.
+              Use Toolorb&apos;s free financial calculators to estimate
+              affordability, compare payments, understand long-term interest
+              costs, and make clearer money decisions before you borrow, buy,
+              save, finance a vehicle, or take on a major monthly payment.
             </p>
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
@@ -425,29 +426,30 @@ export default function ToolsPage() {
           </p>
 
           <h2 className="mt-3 text-3xl font-semibold tracking-tight text-stone-50">
-            Compare the payment, the total cost, and the tradeoff.
+            Start with affordability before comparing payments.
           </h2>
 
           <p className="mt-4 max-w-3xl text-sm leading-6 text-stone-300">
-            A financial calculator is most useful when it helps you see the
-            decision from more than one angle. Start with the calculator that
-            matches your situation, then compare related tools to understand the
-            bigger picture.
+            A financial calculator is most useful when it helps you avoid
+            starting with the wrong number. If you are buying a car, estimate
+            how much car you can afford first, then compare the actual auto loan
+            payment after you know the vehicle price, down payment, taxes, fees,
+            rate, and term.
           </p>
 
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <Link
-              href="/tools/auto-loan-calculator"
+              href="/tools/car-affordability-calculator"
               className="rounded-full bg-amber-300 px-5 py-3 text-sm font-semibold text-stone-950 transition hover:bg-amber-200"
             >
-              Use Auto Loan Calculator
+              Use Car Affordability Calculator
             </Link>
 
             <Link
-              href="/tools/mortgage-calculator"
+              href="/tools/auto-loan-calculator"
               className="rounded-full border border-stone-700 px-5 py-3 text-sm font-semibold text-stone-100 transition hover:border-amber-300/60 hover:text-amber-200"
             >
-              Use Mortgage Calculator
+              Compare the auto loan payment
             </Link>
           </div>
         </section>

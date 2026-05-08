@@ -5,19 +5,19 @@ import { toolDefinitions } from "../lib/tools/tool-registry";
 const staticPages = [
   {
     path: "",
-    lastModified: "2026-04-29",
+    lastModified: "2026-05-08",
   },
   {
     path: "/tools",
-    lastModified: "2026-04-29",
+    lastModified: "2026-05-08",
   },
   {
     path: "/about",
-    lastModified: "2026-04-29",
+    lastModified: "2026-05-08",
   },
   {
     path: "/contact",
-    lastModified: "2026-04-29",
+    lastModified: "2026-05-08",
   },
   {
     path: "/privacy",

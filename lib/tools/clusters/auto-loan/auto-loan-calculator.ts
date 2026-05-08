@@ -30,7 +30,7 @@ export const autoLoanCalculator: ToolDefinition = {
       "compound-interest-calculator",
       "mortgage-calculator",
     ],
-    lastUpdated: "2026-04-30",
+    lastUpdated: "2026-05-08",
   },
 
   content: {
@@ -58,11 +58,21 @@ export const autoLoanCalculator: ToolDefinition = {
     steps: {
       title: "How to use this calculator",
       items: [
-        "Enter the total loan amount for the vehicle.",
-        "Input the annual interest rate provided by your lender.",
+        "If you do not know your vehicle budget yet, start with the car affordability calculator first so you can estimate a safe shopping range before choosing a specific loan amount.",
+        "Enter the total loan amount for the vehicle after subtracting your down payment and trade-in value.",
+        "Input the annual interest rate provided by your lender or preapproval offer.",
         "Choose the loan term in months.",
-        "Click calculate to see your monthly payment and total cost.",
+        "Click calculate to see your monthly payment, total interest, and total loan cost.",
       ],
+    },
+
+    relatedDecision: {
+      eyebrow: "Before you finance",
+      title: "Not sure how much car you can afford?",
+      description:
+        "Use the car affordability calculator first if you are still choosing a realistic vehicle budget. Then come back here once you know the vehicle price, down payment, rate, and loan term.",
+      href: "/tools/car-affordability-calculator",
+      linkLabel: "Estimate a safe car budget",
     },
 
     commonMistakes: {

@@ -24,7 +24,7 @@ relatedToolSlugs: [
   "mortgage-calculator",
   "compound-interest-calculator",
 ],
-    lastUpdated: "2026-04-30",
+    lastUpdated: "2026-05-08",
   },
   contentTokens: {
     toolName: "loan calculator",
@@ -255,12 +255,12 @@ relatedToolSlugs: [
       ],
     },
     relatedDecision: {
-      eyebrow: "Next step",
-      title: "Compare this with a mortgage scenario",
+      eyebrow: "Vehicle loan planning",
+      title: "Using this loan estimate for a car?",
       description:
-        "If this loan is connected to a home purchase, compare it against a full mortgage estimate that can include taxes, insurance, HOA fees, and PMI.",
-      href: "/tools/mortgage-calculator",
-      linkLabel: "Open the mortgage calculator",
+        "If the loan is for a vehicle, start with the car affordability calculator first. It helps estimate a safer car budget from income, debts, down payment, rate, term, and monthly payment comfort before you compare exact auto loan payments.",
+      href: "/tools/car-affordability-calculator",
+      linkLabel: "Estimate how much car you can afford",
     },
     faqs: {
       title: "Frequently asked questions",

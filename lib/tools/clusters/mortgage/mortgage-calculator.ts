@@ -24,7 +24,7 @@ export const mortgageCalculator: ToolDefinition = {
       "compound-interest-calculator",
       "car-affordability-calculator",
     ],
-    lastUpdated: "2026-04-29",
+    lastUpdated: "2026-05-08",
   },
   contentTokens: {
     toolName: "mortgage calculator",
